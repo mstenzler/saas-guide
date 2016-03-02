@@ -40,6 +40,11 @@ gem 'devise'
 #Print ruby objects with color and indentation
 gem 'awesome_print'
 
+#Sidekiq for backgroiund processing
+gem 'sidekiq'
+#For sending emails in the background
+gem 'devise-async'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

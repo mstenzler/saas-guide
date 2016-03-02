@@ -1,0 +1,3 @@
+web:     bundle exec puma -C config/puma.rb
+redis:   redis-server /home/mike/source_install/redis-stable/redis.conf
+sidekiq: bundle exec sidekiq -C config/sidekiq.yml

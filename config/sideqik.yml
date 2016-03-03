@@ -1,5 +1,5 @@
 #config file for sidekiq
-:concurrency: 1
+:concurrency: 2
 :queues:
-  - [mailer, 1]
-  - [default, 1]
+  - [mailer, 5]
+  - [default, 5]

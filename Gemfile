@@ -56,6 +56,8 @@ gem 'simple_form'
 
 #Gem Stripe for payment processing
 gem 'stripe'
+#For processing Stripe events
+gem 'stripe_event'
 
 
 group :development, :test do
@@ -67,5 +69,8 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  #Ultrahook for forwarding stripe events
+  gem 'ultrahook'
 end
 
